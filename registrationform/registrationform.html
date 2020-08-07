@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>registration page</title>
+</head>
+<style>
+body{
+
+    background: url('im6.jpg');
+}
+.container{
+            background-color: #f0f7ffba;
+    border: 2px solid white;
+    margin: 32px 250px;
+    padding: 18px 94px;
+    width: 41%;
+    border-radius: 23px;
+}
+input[type=text]:focus{
+     background-color: lightblue;
+}
+input[type=submit]{
+   text-align: center;
+    background-color: cornflowerblue;
+}
+.header{
+        background-color: #03a9f4a3;
+     padding :20px;
+     text-align:center;
+ }
+.header h1{
+    color:white;
+}
+input[type=text]{
+       padding: 3px 8px;
+    text-align: left;
+        width: 55%;
+}
+</style>
+<body>
+<div class="header">
+<h1> WORKSHOP ON PYTHON PROGRAMING </h1>
+</div>
+<div class="container">
+<form >
+<h1> REGISTRATION FORM</h1>
+<label for="fname">Name:</label><br>
+<input type="text" id="fname" name="fname" placeholder="enter your name..."><br>
+<label for="cname">College:</label><br>
+<input type="text" id= "cname" name="cname" placeholder="enter your college name..."><br>
+<label for="gmail">Gmail:</label><br>
+<input type="text" id="gmail" name="gmail"placeholder="enter your gmail..." ><br>
+<label for="City">City:   </label><br>
+<input type="text" id="City" name="City"placeholder="enter your city..." ><br>
+<label for="no">Contact no:</label><br>
+<input type="text" id="no" name="no" placeholder="enter your contact no.."><br>
+<label for="gender">Gender:</label><br>
+<input type="radio" id="male" name="gender" value=">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="">
+<label for ="female" >female</label><br>
+<label for="Branch">Branch:</label><br>
+<select name="Branch" id:"Branch">
+<option value="Co">Computer Engineering</option>
+<option value="Et">Electronics and Telecommunication Engineering</option>
+<option value="EE">Electrical Engineering</option>
+<option value="ME"> Mechanical Engineering</option>
+</select>
+<br><br>
+<input type="submit" name="submit">
+</form>
+</div>
+</html>
